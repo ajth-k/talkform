@@ -47,7 +47,6 @@ const TalkForm = ({ children, avatar, exitAction }) => {
                   const dataCopy = Array.from(data);
                   clear();
                   exitAction(dataCopy);
-                  alert("completed");
                 }
               }}
             >

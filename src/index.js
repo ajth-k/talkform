@@ -1,3 +1,5 @@
+import "../tailwind.css";
+
 export { useTalkForm } from "./hooks/useTalkForm";
 export {
   TalkformContext,
